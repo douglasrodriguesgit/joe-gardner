@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="stylesheet" href="css/style.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="./favicon.svg" type="image/x-icon">	 
+	<title>Joe Gardner</title>
+</head>
+<body>
+	<header class="menu-bg ">
+      <div class="menu" data-menu="suave"> 
+		  
+		<a name="joe" href="#joe-gardner"><img src="./icones/marca.svg" alt="Joe-Gardner"></a>
+		<nav>
+		<ul class=" font-1-s cor-1 menu-link">
+			<li> <a href="#aulas">Aulas</a></li>
+			<li> <a href="#agendamento">Agendamento</a></li>
+			<li> <a href="#contato">Contato</a></li>
+		</ul>	
+		</nav>
+	</div>
+	</header>
+
+	<main class="container intro">
+		<div class="intro-conteudo"> 
+		<h1 class="font-1-xl cor-12" data-type="writer">Aprenda a tocar piano</h1>
+		<p class="font-2-m cor-9">  Aulas presenciais ou on-line de piano, conhecimento teórico e repertório em todos 
+			os gêneros de música, com destaque para os da preferência do aluno.</p>
+
+			<h2 class="font-1-m cor-11" >Aulas com acesso facicilitado</h2>
+			<ul class="aulas font-2-s cor-9">
+				<li> <img src="./icones/nota.svg" alt="">Primeira aula grátis </li>
+				<li> <img src="./icones/nota.svg" alt="">Aulas á distância </li>
+				<li> <img src="./icones/nota.svg" alt="">Suporte teórico  semanal </li>
+				<li> <img src="./icones/nota.svg" alt="">Repertório em todos os generos musicais </li>
+				<li> <img src="./icones/nota.svg" alt="">Aulas para crianças e adultos </li>
+			</ul>
+		</div>
+	<img class="piano" src="./imagem/piano.jpg" alt="aulas-de-piano">
+	</main>
+
+	<main class="bg-professor" id="joe-gardner">
+		<div class="professor container">
+		<div class="professor-gardner">
+		<img class="marca" src="./icones/marca.svg" alt="joe-gardner">
+		<img class="professor-piano" src="./imagem/joe-gardner.jpg" alt="professor-tocando-piano">
+		 	
+		</div>
+		<div class="professor-conteudo">
+	     <h3 class="cor-3 font-1-l">Professor Gardner </h3>
+		 <p class="cor-5 font-2-m">Bacharel em Artes da Performance Jazzística com Habilitação em Piano
+			  pela Newpark Music Centre, em Dublin.</p>
+		 <p class="cor-5 font-2-m">Em sua formação consta ainda a Faculdade Internacional de Música Souza Lima & 
+			 Berklee e a EMESP Tom Jobim, onde estudou, respectivamente, o piano no jazz
+			 e na música brasileira e composição contemporânea.</p>			 
+
+		</div>
+	</div>
+	</main>
+
+	<section class="bg-aulas"  id="aulas" data-menu="suave">
+	<div class="container aulas">
+	<h1 class="font-1-xl cor-12"> Aulas</h1>
+
+	<div class="aulas-infantil aulas-container"> 
+	<h3 class="font-1-m cor-11">Infantil</h3>
+	<ul class="font-2-m cor-8">
+		<li>Público entre 5 e 15 anos </li>
+		<li>Equipamentos fornecidos</li>
+		<li>Horários de seg. á . sáb</li>
+		<li>2 horas seguidas</li>
+		<li>Material didático fornecido</li>
+		<li>Suporte on-line</li>
+	</ul>
+	<span class="font-1-s cor-9">R$59,00 / Aula</span>
+</div>
+
+<div class="aulas-adulto aulas-container"> 
+	<h3 class="font-1-m cor-11">Adulto</h3>
+	<ul class=" font-2-m cor-8">
+		<li>Público entre 16 e 80 anos </li>
+		<li>Equipamentos fornecidos</li>
+		<li>Horários de seg. á . sáb</li>
+		<li>3 horas seguidas</li>
+		<li>Material didático fornecido</li>
+		<li>Suporte on-line</li>
+	</ul>
+	<span class="font-1-s cor-9">R$79,00 / Aula</span>
+</div>
+</div>
+</section>
+
+<section class="bg-agendamento" id="agendamento" data-menu="suave">
+	<div class="agendamento container"> 
+	<h1 class="font-1-xl cor-1"> Agendamento</h1>
+ 
+	<form id="formulario" class="font-1-xs" method="post">
+	
+		<label for="nome">Nome</label>
+		<input type="text" id="nome">
+
+		<label for="sobrenome">Sobrenome</label>
+		<input type="text" id="sobrenome">
+
+		<label for="email">Email </label>
+		<input type="text" id="email" placeholder=" nome@email.com">
+
+		<label for="telefone">Telefone</label>
+		<input type="text" id="telefone"  placeholder=" (11) 99999-9999">	
+
+		<label for="data">Data-agendada</label>
+		<input type="date" id="data-agendada">
+
+		<label for="horario">Horário-agendado</label>
+		<input type="time" id="horario-agendado">		
+	</form>
+
+    <div class="localizacao font-1-s cor-4" >
+	<h3> Localização</h3>	 
+	<img class src="./imagem/localização.jpg" alt="">
+</div>
+
+<span class="btn-agendamento">enviar  agendamento</span>
+
+</div>
+</div>
+</section>
+
+<footer class="bg-footer"  id="contato" data-menu="suave">
+	<div class="contato container rodape ">
+		
+
+	<h1 class="font-1-xl cor-1"> Contato</h1>	
+	<img src="./icones/marca.svg" class="marca-footer" alt="professor-gardner">
+
+	<nav class="redes">
+	<ul>			
+		    <li> <a href=""> <img src="./icones/redes/instagram.svg" alt=""></a> </li>
+			<li> <a href=""><img src="/icones/redes/facebook.svg" alt=""> </a></li>			
+			<li> <a href=""><img src="./icones/redes/youtube.svg" alt=""></a> </li>			
+
+	</ul>
+	</nav>
+	
+
+<div class="endereco font-2-s cor-2">
+
+<ul>
+	<li>+55 11 99554-6417 </li>
+	<li>joe.gardner@gmail.com </li>
+	<li>Rua ipiranga, 107 - Jardins</li>
+	<li>São Paulo-SP</li>
+</ul>
+</div>
+<p class="endereco font-2-s cor-2 "> Joe Gardner © Alguns direitos reservados.</p>
+</div>	
+</footer>
+
+<script type="module" src="./js/script.js"></script>
+</body>
+</html>

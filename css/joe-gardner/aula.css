@@ -1,0 +1,117 @@
+.bg-aulas {
+  margin-top: 60px;
+  background-color: var(--cor-2);
+}
+
+.aulas h1 {
+  grid-column: 1/-1;
+  margin-top: 60px;
+  position: relative;
+}
+
+
+.aulas-container {
+  height: 500px;
+  width: 510px;
+  background-color: var(--cor-1);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  box-shadow: inset 0px -2px var(--cor-3);
+}
+
+.aulas-container h3 {
+  margin-bottom: 20px;
+}
+
+.aulas-container h3,
+li,
+span {
+  margin-left: 60px;
+}
+
+.aulas-container h3::after {
+  content: "";
+  display: block;
+  width: 456px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: var(--cor-2);
+  margin-left: -30px;
+}
+
+.aulas-container li {
+  display: flex;
+  position: relative;
+}
+
+.aulas-container li::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 4px;
+  border-radius: 1px;
+  background-color: var(--cor-6);
+  position: absolute;
+  margin-left: -18px;
+  margin-top: 16px;
+}
+
+.aulas-container span::before {
+  content: "";
+  display: block;
+  width: 456px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: var(--cor-2);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: -30px;
+}
+
+.aulas-container span {
+  display: block;
+}
+
+@media (max-width: 1200px) {
+  .aulas-container span::before,
+  .aulas-container h3::after {
+    width: 350px;
+  }
+
+  .aulas-container {
+    height: 500px;
+    width: 400px;
+  }
+
+  @media (max-width: 915px) {
+    .aulas-container span::before,
+    .aulas-container h3::after {
+      width: 250px;
+    }
+
+    .aulas-container {
+      height: 500px;
+      width: 343px;
+    }
+
+    @media (max-width: 800px) {
+      .aulas-container {
+        grid-template-columns: 1fr;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: 400px;
+        width: 510px;
+      }
+
+      .bg-aulas {
+        margin-top: 0px;
+      }
+
+      .aulas h1 {
+        margin-top: 30px;
+      }
+    }
+  }
+}

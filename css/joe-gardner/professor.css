@@ -1,0 +1,49 @@
+.bg-professor{
+    margin-top:60px ;
+    background:linear-gradient(to top, var(--cor-1) 15%, var(--cor-12) 0%)
+}
+
+.professor-gardner .marca{
+    margin-top: 60px;
+    margin-bottom: 40px; 
+}
+
+.professor-conteudo{
+    margin-left: 40px;
+}
+
+.professor-conteudo h3{
+   margin-top: 130px;
+   margin-bottom: 30px;
+}
+
+.professor-conteudo p+p{
+    margin-top: 20px;
+ }
+
+ @media(max-width:950px){
+    .bg-professor{       
+    background: var(--cor-12);
+      }
+ }
+
+@media(max-width:800px){
+    .professor-gardner .marca{
+        display: none; 
+    }    
+
+    .bg-professor{
+        margin-top: 30px;
+    }      
+    
+    .professor-conteudo{
+        margin-left: 0px;
+        margin-bottom: 20px;
+        grid-row: 1;        
+    }
+
+    .professor-conteudo h3{
+        margin-top: 0px;        
+     }   
+    
+    }
