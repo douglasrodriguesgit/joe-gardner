@@ -9,7 +9,6 @@
   position: relative;
 }
 
-
 .aulas-container {
   height: 500px;
   width: 510px;
@@ -113,5 +112,29 @@ span {
         margin-top: 30px;
       }
     }
+  }
+}
+
+@media (max-width: 600px) {
+  .aulas-container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 450px) {
+  .aulas-container {
+    width: 350px;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .aulas-container span::before,
+  .aulas-container h3::after {
+    display: none;
+  }
+
+  .aulas-container span {
+    margin-top: 30px;
   }
 }
