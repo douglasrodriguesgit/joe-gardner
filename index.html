@@ -16,16 +16,18 @@
 
 <body>
 	<header class="menu-bg ">
-		<div class="menu" data-menu="suave">
+		<nav class="menu" data-menu="suave">
+
 			<a name="joe" href="#joe-gardner"><img src="./icones/marca.svg" alt="Joe-Gardner"></a>
-			<nav>
-				<ul class=" font-1-s cor-1 menu-link">
-					<li> <a href="#aulas">Aulas</a></li>
-					<li> <a href="#agendamento">Agendamento</a></li>
-					<li> <a href="#contato">Contato</a></li>
-				</ul>
-			</nav>
-		</div>
+			<button data-menu="mobile" aria-expanded="false" aria-controls="menu" font-1-s cor-1>Menu <span class="hamburguer"></span></button>
+
+			<ul data-menu="lista" class=" font-1-s cor-1 menu-link">
+				<li> <a href="#aulas">Aulas</a></li>
+				<li> <a href="#agendamento">Agendamento</a></li>
+				<li> <a href="#contato">Contato</a></li>
+			</ul>
+		</nav>
+
 	</header>
 
 	<main class="container intro">

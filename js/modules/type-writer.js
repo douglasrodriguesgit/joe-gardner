@@ -1,4 +1,4 @@
-export function initTypeWriter() {
+export default function initTypeWriter() {
   const titulo = document.querySelector('[data-type="writer"]');
 
   function typeWriter(element) {

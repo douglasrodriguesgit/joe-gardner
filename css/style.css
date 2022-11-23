@@ -1,29 +1,28 @@
-/*tipografia*/ 
+/*tipografia*/
 @import url(../css/utilitarios/tipografia.css);
 
-/*cores*/ 
+/*cores*/
 @import url(../css/utilitarios/cores.css);
-
 
 @import url(../css/global.css);
 
-/*menu*/ 
+/*menu*/
 @import url(../css/joe-gardner/header.css);
 
-/*introduçaõ*/ 
+/*menu-mobile*/
+@import url(../css/joe-gardner/menu-mobile.css);
+
+/*introduçaõ*/
 @import url(../css/joe-gardner/introducao.css);
 
-/*Professor*/ 
+/*Professor*/
 @import url(../css/joe-gardner/professor.css);
 
 /*Aulas*/
 @import url(../css/joe-gardner/aula.css);
-
 
 /*Angendamento*/
 @import url(../css/joe-gardner/agendamento.css);
 
 /*Footer */
 @import url(../css/joe-gardner/footer.css);
-
-
