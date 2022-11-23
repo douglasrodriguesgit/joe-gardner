@@ -29,31 +29,9 @@
     border-color: var(--cor-2);    
 }
 
-
-
-
 .menu ul{
     display: flex;
     flex-wrap: wrap;
 }
 
 
-
-@media (max-width:800px) {
-
-
-    .menu-link a:hover{
-        border: none;
-    }
-
-    .menu-link a {
-        border:none;
-    }
-
-    .menu a {
-        font-size: 1.4rem;
-        margin-top: 0px;
-        display: inline; 
-
-        
-    }}
