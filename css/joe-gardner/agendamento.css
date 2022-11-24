@@ -1,72 +1,74 @@
-.bg-agendamento{
-    background-color: var(--cor-11);
-    padding-bottom: 60px;
-    
+.bg-agendamento {
+  background-color: var(--cor-11);
+  padding-bottom: 60px;
 }
 
-.agendamento h1{
-    margin-top: 60px;
+.agendamento h1 {
+  margin-top: 60px;
 }
 
-#formulario{   
-    grid-column: 1;
+#formulario {
+  grid-column: 1;
+  margin-top: 30px;
+  color: var(--cor-4);
+  margin-left: 20%;
+}
+
+#formulario label {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+#formulario input {
+  font: 400 1rem/0.875 "roboto", sans-serif;
+  width: 260px;
+  color: var(--cor-p-1);
+  border-radius: 2px;
+}
+
+#formulario input:focus {
+  outline: 2px solid var(--cor-p-2);
+}
+
+.localizacao h3 {
+  margin-top: 7%;
+  margin-bottom: 10px;
+}
+
+.btn-agendamento {
+  color: var(--cor-2);
+  background-color: var(--cor-9);
+  width: 200px;
+  height: 20px;
+  padding: 20px 20px;
+  text-align: center;
+  margin-top: 40px;
+  border-radius: 5px;
+  font: 400 1rem/0.875 "poppins", sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn-agendamento:hover {
+  background-color: var(--cor-5);
+  color: var(--cor-p-12);
+}
+
+@media (max-width: 800px) {
+  .btn-agendamento {
+    grid-row: 3;
+  }
+  .bg-agendamento {
+    padding-bottom: 30px;
+  }
+  .agendamento h1 {
     margin-top: 30px;
-    color: var(--cor-4);
-    margin-left: 20%;
-    
+  }
 }
 
-#formulario label{
-    display: block;
-    margin-top: 20px;
-    margin-bottom: 5px;            
-}
-
-#formulario input{
-    font: 400 1rem/0.875 "roboto", sans-serif; 
-    width: 260px;
-    color: var(--cor-p-1);
-    border-radius: 2px; 
-    
-}
-
-#formulario input:focus{
-    outline: 2px solid var(--cor-p-2)
-}
-
-.localizacao h3{ 
-    margin-top: 7%;   
-    margin-bottom: 10px;
-}
-
-.btn-agendamento{
-    color: var(--cor-2);
-    background-color:var(--cor-9) ;
-    width: 200px;
-    height: 20px;
-    padding: 20px 20px;
-    text-align: center;
-    margin-top: 40px;  
-    border-radius: 5px;
-    font: 400 1rem/0.875 "poppins", sans-serif; 
-    text-transform: uppercase;
-    cursor: pointer;    
-}
-
-.btn-agendamento:hover{
-background-color:var(--cor-5);
-color: var(--cor-p-12);
-}
-
-@media(max-width:800px){
-    .btn-agendamento{
-        grid-row: 3;
-    }
-    .bg-agendamento{      
-        padding-bottom: 30px;
-        
-    }
-    .agendamento h1{
-        margin-top: 30px;
-    }
+@media (max-width: 360px) {
+  #formulario {
+    margin-left: 1.2rem;
+  }
 }

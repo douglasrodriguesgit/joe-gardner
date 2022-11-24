@@ -12,6 +12,7 @@
     text-transform: uppercase;
     cursor: pointer;
     position: relative;
+    z-index: 2;
   }
 
   .hamburguer {
@@ -86,4 +87,11 @@
     font-size: 1.4rem;
     margin-top: 0 1rem;
   }
+}
+
+@media (max-width: 420px) {
+  [data-menu="lista"].ativo {
+    margin-top: 2rem;
+  }
+
 }
