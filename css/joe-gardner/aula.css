@@ -128,7 +128,6 @@ span {
 }
 
 @media (max-width: 400px) {
-
   .aulas-container span::before,
   .aulas-container h3::after {
     display: none;
@@ -136,5 +135,9 @@ span {
 
   .aulas-container span {
     margin-top: 30px;
+  }
+
+  .aulas-container {
+    width: 300px;
   }
 }

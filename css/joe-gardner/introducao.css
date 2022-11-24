@@ -14,18 +14,6 @@
   max-width: 13ch;
 }
 
-.intro-conteudo h1::before,
-p::before {
-  content: "";
-  display: block;
-  background-color: var(--cor-2);
-  width: max-content;
-  height: max-content;
-  position: absolute;
-  z-index: -1;
-  border-radius: 4px;
-}
-
 .intro-conteudo p {
   max-width: 38ch;
   margin-top: 28px;
@@ -36,12 +24,12 @@ p::before {
   margin-bottom: 24px;
 }
 
-.aulas img {
+.lista-aulas img {
   display: inline;
-  margin-right: 8px;
+  margin-right: 6px;
 }
 
-.aulas li + li {
+.lista-aulas li + li {
   margin-top: 12px;
 }
 
@@ -69,5 +57,11 @@ p::before {
   }
   .intro-conteudo h2 {
     margin-top: 30px;
+  }
+}
+
+@media (max-width: 420px) {
+  .lista-aulas li {
+    margin-left: 1.2rem;
   }
 }
