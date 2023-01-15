@@ -21,16 +21,18 @@
 }
 
 #formulario input {
-  font: 400 1rem/0.875 "roboto", sans-serif;
+  font: var(--font-2-m);
   width: 260px;
-  color: var(--cor-p-1);
+  color: var(--cor-9);
   border-radius: 2px;
+  background: var(--cor-2);
 }
 
 #formulario input:focus,
 textarea:focus {
   outline: 2px solid var(--cor-p-2);
-  background-color: var(--cor-2);
+  background-color: var(--cor-1);
+  color: var(--cor-9);
 }
 
 .mensagem {
@@ -41,8 +43,15 @@ textarea:focus {
 textarea {
   height: 100px;
   width: 270px;
-  color: var(--cor-p-1);
   border-radius: 2px;
+  font: var(--font-2-m);
+  margin: 2px;
+}
+
+textarea :focus {
+  margin: 2px;
+  background: var(--cor-1);
+  color: var(--cor-9);
 }
 
 .localizacao h3 {
