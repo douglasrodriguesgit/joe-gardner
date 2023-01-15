@@ -97,66 +97,63 @@
 				<span class="font-1-s cor-9">R$79,00 / Aula</span>
 			</div>
 		</div>
-	
+
 
 		<section id="piano">
 			<h2 class="font-1-l cor-11 container"> Sinta a magia do piano.</h2>
-		
-		<div class="piano-design container">
-			<div data-note="C" class="key white"></div>
-			<div data-note="Db" class="key black"></div>
-			<div data-note="D" class="key white"></div>
-			<div data-note="Eb" class="key black"></div>
-			<div data-note="E" class="key white"></div>
-			<div data-note="F" class="key white"></div>
-			<div data-note="Gb" class="key black"></div>
-			<div data-note="G" class="key white"></div>
-			<div data-note="Ab" class="key black"></div>
-			<div data-note="A" class="key white"></div>
-			<div data-note="Bb" class="key black"></div>
-			<div data-note="B" class="key white"></div>
 
-			<audio id="C" src="notas/C.mp3"></audio>
-			<audio id="Db" src="notas/Db.mp3"></audio>
-			<audio id="D" src="notas/D.mp3"></audio>
-			<audio id="Eb" src="notas/Eb.mp3"></audio>
-			<audio id="E" src="notas/E.mp3"></audio>
-			<audio id="F" src="notas/F.mp3"></audio>
-			<audio id="Gb" src="notas/Gb.mp3"></audio>
-			<audio id="G" src="notas/G.mp3"></audio>
-			<audio id="Ab" src="notas/Ab.mp3"></audio>
-			<audio id="A" src="notas/A.mp3"></audio>
-			<audio id="Bb" src="notas/Bb.mp3"></audio>
-			<audio id="B" src="notas/B.mp3"></audio>
+			<div class="piano-design container">
+				<div data-note="C" class="key white"></div>
+				<div data-note="Db" class="key black"></div>
+				<div data-note="D" class="key white"></div>
+				<div data-note="Eb" class="key black"></div>
+				<div data-note="E" class="key white"></div>
+				<div data-note="F" class="key white"></div>
+				<div data-note="Gb" class="key black"></div>
+				<div data-note="G" class="key white"></div>
+				<div data-note="Ab" class="key black"></div>
+				<div data-note="A" class="key white"></div>
+				<div data-note="Bb" class="key black"></div>
+				<div data-note="B" class="key white"></div>
 
-		</div>
+				<audio id="C" src="notas/C.mp3"></audio>
+				<audio id="Db" src="notas/Db.mp3"></audio>
+				<audio id="D" src="notas/D.mp3"></audio>
+				<audio id="Eb" src="notas/Eb.mp3"></audio>
+				<audio id="E" src="notas/E.mp3"></audio>
+				<audio id="F" src="notas/F.mp3"></audio>
+				<audio id="Gb" src="notas/Gb.mp3"></audio>
+				<audio id="G" src="notas/G.mp3"></audio>
+				<audio id="Ab" src="notas/Ab.mp3"></audio>
+				<audio id="A" src="notas/A.mp3"></audio>
+				<audio id="Bb" src="notas/Bb.mp3"></audio>
+				<audio id="B" src="notas/B.mp3"></audio>
+
+			</div>
+		</section>
 	</section>
-</section>
 
 
 	<section class="bg-agendamento" id="agendamento" data-menu="suave">
 		<div class="agendamento container">
 			<h1 class="font-1-xl cor-1"> Agendamento</h1>
 
-			<form id="formulario" class="font-1-xs" method="post">
+
+			<form id="formulario" class="font-1-xs" action="https://formsubmit.co/douglasrodriguessouza.adm@gmail.com" method="POST">
+
 
 				<label for="nome">Nome</label>
-				<input type="text" id="nome">
+				<input type="text" name="name" obrigatório placeholder="Nome" required>
 
-				<label for="sobrenome">Sobrenome</label>
-				<input type="text" id="sobrenome">
+				<label for="email">E-mail </label>
+				<input type="email" name="email" obrigatório placeholder="nome@email.com" required>
 
-				<label for="email">Email </label>
-				<input type="text" id="email" placeholder=" nome@email.com">
+				<label class="mensagem" for="mensagem">Mensagem </label>
+				<textarea name="message"  placeholder="Faça o seu agendamento.">
+				</textarea>
 
-				<label for="telefone">Telefone</label>
-				<input type="text" id="telefone" placeholder=" (11) 99999-9999">
+				<button class="btn-agendamento" type="submit">enviar agendamento</button>
 
-				<label for="data">Data-agendada</label>
-				<input type="date" id="data-agendada">
-
-				<label for="horario">Horário-agendado</label>
-				<input type="time" id="horario-agendado">
 			</form>
 
 			<div class="localizacao font-1-s cor-4">
@@ -164,7 +161,7 @@
 				<img class src="./imagem/localização.jpg" alt="">
 			</div>
 
-			<span class="btn-agendamento">enviar agendamento</span>
+
 
 		</div>
 		</div>

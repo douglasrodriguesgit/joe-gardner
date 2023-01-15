@@ -14,7 +14,8 @@ header,
 a,
 nav,
 footer,
-button {
+button,
+textarea {
   margin: 0;
   padding: 0;
 }

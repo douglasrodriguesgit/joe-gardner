@@ -1,7 +1,6 @@
 .bg-agendamento {
   background-color: var(--cor-11);
   padding-bottom: 60px;
- 
 }
 
 .agendamento h1 {
@@ -12,7 +11,7 @@
   grid-column: 1;
   margin-top: 30px;
   color: var(--cor-4);
-  margin-left: 20%;
+  margin-left: 20px;
 }
 
 #formulario label {
@@ -28,8 +27,22 @@
   border-radius: 2px;
 }
 
-#formulario input:focus {
+#formulario input:focus,
+textarea:focus {
   outline: 2px solid var(--cor-p-2);
+  background-color: var(--cor-2);
+}
+
+.mensagem {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+textarea {
+  height: 100px;
+  width: 270px;
+  color: var(--cor-p-1);
+  border-radius: 2px;
 }
 
 .localizacao h3 {
@@ -38,13 +51,14 @@
 }
 
 .btn-agendamento {
+  display: block;
   color: var(--cor-2);
-  background-color: var(--cor-9);
-  width: 200px;
-  height: 20px;
-  padding: 20px 20px;
+  background-color: var(--cor-10);
+  width: 140px;
+  height: 60px;
+  border: none;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 20px;
   border-radius: 5px;
   font: 400 1rem/0.875 "poppins", sans-serif;
   text-transform: uppercase;
@@ -52,8 +66,9 @@
 }
 
 .btn-agendamento:hover {
-  background-color: var(--cor-5);
-  color: var(--cor-p-12);
+  background-color: var(--cor-9);
+  color: var(--cor-1);
+  transform: scale(1.1);
 }
 
 @media (max-width: 800px) {
