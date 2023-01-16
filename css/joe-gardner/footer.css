@@ -19,6 +19,7 @@
 .redes ul {
   display: flex;
   margin-left: -10%;
+  align-items: center;
 }
 
 .endereco {
@@ -68,14 +69,6 @@
     margin-bottom: 30px;
   }
 
-  .redes {
-    margin-left: 2%;
-  }
-
-  .contato p {
-    margin-left: 0.5%;
-  }
-
   .endereco {
     grid-column: 1;
     margin-top: 40px;
@@ -86,16 +79,31 @@
   .endereco li:nth-child(4)::after {
     width: 310px;
   }
+
+  .redes img {
+    margin-left: 80px;
+  }
+  .contato li {
+    margin-left: 5px;
+  }
+
+  .endereco {
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 500px) {
+  .redes img {
+    margin-left: 50px;
+  }
 }
 
 @media (max-width: 420px) {
-  .endereco {
-    margin-left: 0px;
-  }
-
   .endereco li:nth-child(3)::before,
   .endereco li:nth-child(4)::after {
     width: 250px;
   }
+  .redes img {
+    margin-left: 40px;
+  }
 }
-

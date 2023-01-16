@@ -57,6 +57,6 @@ img {
 @media (max-width: 800px) {
   .container {
     grid-template-columns: 1fr;
-    margin-left: 1%;
+    margin-left: 2%;
   }
 }

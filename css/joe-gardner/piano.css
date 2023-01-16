@@ -14,9 +14,6 @@
   padding-bottom: 60px;
 }
 
-.key {
-}
-
 .white {
   width: 100px;
   height: 400px;
@@ -41,4 +38,32 @@
 
 .black.tecla-ativa {
   background: var(--cor-10);
+}
+
+@media (max-width: 800px) {
+  #piano {
+    margin-top: 30px;
+  }
+
+  .white {
+    width: 50px;
+    height: 200px;
+    background: var(--cor-1);
+    border: solid 1px var(--cor-8);
+    cursor: pointer;
+  }
+  
+  .white.tecla-ativa {
+    background: var(--cor-3);
+  }
+  
+  .black {
+    width: 30px;
+    height: 120px;
+    background: var(--cor-12);
+    margin-left: -15px;
+    margin-right: -15px;
+    z-index: 2;
+    cursor: pointer;
+  }
 }
