@@ -11,7 +11,9 @@ No piano foi utilizado JavaScript puro, o projeto se encontra completamente resp
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-	![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+ **[Deploy](https://douglasrodriguesgit.github.io/joe-gardner/index.html)**
 
  ### Desenvolvido por:
  **[Douglas Rodrigues](https://douglasrodriguesgit.github.io/portfolio/index.html)**
