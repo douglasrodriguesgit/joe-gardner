@@ -1,5 +1,6 @@
 body {
   background-color: var(--cor-1);
+
 }
 html,
 body,
@@ -60,3 +61,5 @@ img {
     margin-left: 2%;
   }
 }
+
+/* pequeno comentario */
